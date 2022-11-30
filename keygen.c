@@ -2,6 +2,7 @@
 #include <cpuid.h>
 #include <openssl/md5.h>
 #include <stdlib.h>
+#include <string.h>
 
 unsigned char md5digest[16];
 unsigned char psn[17];
